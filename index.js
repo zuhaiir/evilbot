@@ -8,4 +8,4 @@ client.on('message', (message) => {
     message.reply(`ECHO ${message.content}`);
 });
 
-client.login('Njk2MzY1MTA5ODE1MTQ4NjU2.XonqjA.fDBMo54LJUJcE9kpGS_HlGLRNSI')
+client.login(process.env.token)
