@@ -6,7 +6,10 @@ const client = new Discord.Client();
 client.on('ready',() => console.log('I am ready'));
 
 client.on('message', (message) => {
-    message.reply(`ECHO ${message.content}`);
+    if(!message.author.bot){
+        message.reply(`ECHO ${message.content}`);
+    }
+       
 });
 
 client.login(process.env.TOKEN)
