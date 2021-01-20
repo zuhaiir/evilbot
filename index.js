@@ -1,6 +1,11 @@
 const Discord = require('discord.js');
 const dotenv = require('dotenv');
-dotenv.config();
+try {
+    dotenv.config();
+} catch (error) {
+    //do nothing
+}
+
 const client = new Discord.Client();
 
 client.on('ready',() => console.log('I am ready'));
