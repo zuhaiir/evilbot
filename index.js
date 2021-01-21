@@ -17,7 +17,12 @@ function getRandomInt(max) {
 const insults = [
     "You dumbass",
     "You idiot",
-    "Die"
+    "Die",
+    "Jump off a cliff",
+    "You're so poor",
+    "You're so ugly, I puked",
+    "Stinky",
+    "Hey ugly"
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
