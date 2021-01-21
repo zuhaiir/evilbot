@@ -8,13 +8,27 @@ try {
 
 const client = new Discord.Client();
 
-client.on('ready',() => console.log('I am ready'));
+let counter = 0;
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+const insults = [
+    "You dumbass",
+    "You idiot",
+    "Die",
+    "You should consider getting a new brain"
+]
+
+client.on('ready',() => console.log('I am ready' || process.env.PORT));
 
 client.on('message', (message) => {
+    let randomint = getRandomInt(insults.length);
     if(!message.author.bot){
-        message.reply(`ECHO ${message.content}`);
+        message.reply(insults[randomint]);
     }
-       
+    //counter++;   
 });
 
 client.login(process.env.TOKEN)
