@@ -25,10 +25,10 @@ client.on('ready',() => console.log('I am ready' || process.env.PORT));
 
 client.on('message', (message) => {
     let randomint = getRandomInt(insults.length);
-    if(!message.author.bot){
+    if(!message.author.bot && (counter % 5 === 0)){
         message.reply(insults[randomint]);
     }
-    //counter++;   
+    counter++;   
 });
 
 client.login(process.env.TOKEN)
