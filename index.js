@@ -20,7 +20,7 @@ const insults = [
     "Die",
     "Jump off a cliff",
     "You're so poor",
-    "You're ugly",
+    "You're so ugly, I puked",
     "Stinky",
     "Hey ugly"
 ]
