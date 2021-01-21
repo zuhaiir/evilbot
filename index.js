@@ -41,7 +41,8 @@ const insults = [
     "Even Bob Ross would call you a mistake.",
     "Your mom told you that you could become anything. Yet you still chose to become a disappointment.",
     "You are so basic, even if you were dropped in indrustrial-grade acid, you'd balance the pH.",
-    "You're a dissapointment"
+    "You're a disappointment",
+    "What a dumb name"
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
