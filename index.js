@@ -23,6 +23,8 @@ const insults = [
     "You're ugly",
     "Stinky",
     "Hey ugly"
+    "You look so pretty today. Not at all gross."
+   
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
