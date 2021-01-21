@@ -30,6 +30,18 @@ const insults = [
     "Your asshole must be so jealous of your mouth from all the shit it’s been spewing.",
     "Somewhere out there, a tree is tirelessly producing oxygen for you.  I think you owe it an apology.",
     "It's better to let someone think you are an idiot than to open your mouth and prove it."
+    "Are you always this stupid or is today a special occasion?"
+    "As an outsider, what do you think of the human race?"
+    "Don't you have a terribly empty feeling - in your skull?"
+    "Keep talking, someday you'll say something intelligent!"
+    "I’d give you a nasty look but you’ve already got one."
+    "You should really come with a warning label."
+    "You’re a grey sprinkle on a rainbow cupcake."
+    "Hi"
+    "I am returning your nose. I found it in my business."
+    "Earth is full. Go home."
+    "Who ate your bowl of sunshine this morning, thundercloud?"
+    "You’re about as useful as an ashtray on a motorcycle."
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
