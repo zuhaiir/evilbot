@@ -42,7 +42,18 @@ const insults = [
     "Your mom told you that you could become anything. Yet you still chose to become a disappointment.",
     "You are so basic, even if you were dropped in indrustrial-grade acid, you'd balance the pH.",
     "You're a disappointment",
-    "What a dumb name"
+    "What a dumb name",
+    "Are you always this stupid or is today a special occasion?",
+    "As an outsider, what do you think of the human race?",
+    "Don't you have a terribly empty feeling - in your skull?",
+    "Keep talking, someday you'll say something intelligent!",
+    "I’d give you a nasty look but you’ve already got one.",
+    "You should really come with a warning label.",
+    "You’re a grey sprinkle on a rainbow cupcake.",
+    "I am returning your nose. I found it in my business.",
+    "Earth is full. Go home.",
+    "Who ate your bowl of sunshine this morning, thundercloud?",
+    "You’re about as useful as an ashtray on a motorcycle.",
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
