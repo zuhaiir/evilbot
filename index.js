@@ -27,7 +27,6 @@ const insults = [
     "You’re not pretty enough to be this stupid.",
     "If I wanted to kill myself, I’d climb to your ego and jump to your IQ.",
     "What doesn’t kill you… disappoints me.",
-    "Your asshole must be so jealous of your mouth from all the shit it’s been spewing.",
     "Somewhere out there, a tree is tirelessly producing oxygen for you.  I think you owe it an apology.",
     "It's better to let someone think you are an idiot than to open your mouth and prove it.",
     "You are the human equivalent of a participation award.",
@@ -54,6 +53,12 @@ const insults = [
     "Earth is full. Go home.",
     "Who ate your bowl of sunshine this morning, thundercloud?",
     "You’re about as useful as an ashtray on a motorcycle.",
+    "You're adopted",
+    "Your parents don't want you",
+    "If you were a middle aged white woman, you would be a Karen",
+    "Hey pussface",
+    "Yo fatty"
+    "Hey fatty mcfatface"
 ]
 
 client.on('ready',() => console.log('I am ready' || process.env.PORT));
