@@ -57,7 +57,7 @@ const insults = [
     "Your parents don't want you",
     "If you were a middle aged white woman, you would be a Karen",
     "Hey pussface",
-    "Yo fatty"
+    "Yo fatty",
     "Hey fatty mcfatface"
 ]
 
